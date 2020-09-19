@@ -4,7 +4,7 @@ This is simple Port scanner made with Python.
 
 ## How-to-run-in-Terminal
 
-Simply goto the directry and run ```port-scanner.py target``` command with repalcing target to your target IP Address
+Simply goto the directory and run ```port-scanner.py target``` command with replacing target to your target IP Address
 
 >Note:
 > You can run this file without Terminal by just opening the file.
