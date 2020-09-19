@@ -25,7 +25,7 @@ def getparser():
 
 
 class Scan:
-    def __init__(self):
+    def __init__(self, target: str):
         socket.setdefaulttimeout(0.25)
         self.print_lock = Lock()
         self.q = Queue()
@@ -81,11 +81,11 @@ if __name__ == '__main__':
         print('Using Auto Discover mode\n')
         n = NetDiscover().result
         for i in n:
-            target = i['ip']
-            Scan()
+            target_ = i['ip']
+            Scan(target=target_)
 
     else:
-        target = options.host
-        if not target:
-            target = input('Enter the host to be scanned: ')
-        Scan()
+        target_ = options.host
+        if not target_:
+            target_ = input('Enter the host to be scanned: ')
+        Scan(target=target_)
