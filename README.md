@@ -3,8 +3,8 @@ Tooling that scan specific IP or **automates** scan all the local IPs on your ne
 
 ## Table of contents
 - [Installing Local Port Scanner](#installation)
-- [Running Local Port Scanner](#running-Local Port Scanner)
-- [Updating Local Port Scanner](#updating-Local Port Scanner)
+- [Running Local Port Scanner](#running-local-port-scanner)
+- [Updating Local Port Scanner](#updating-local-port-scanner)
 
 ## **Installation**
 ```elm
