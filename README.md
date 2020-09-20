@@ -46,13 +46,13 @@ There are two classes you can use.
 - port_scanner
   * To scan specific target
  ```elm
-from loacl_scanner import port_scanner
+from loacl_scanner import Scan
 Scan(target='127.0.0.1')
 ```
 - netdiscover
   * To discover host in the Local network
  ```elm
-from loacl_scanner import netdiscover
+from loacl_scanner import NetDiscover
 NetDiscover(output=True)
 ```
 #### Updating Local Port Scanner
