@@ -1,32 +1,67 @@
-# Port-Scanner
+#Local Port Scanner
+Tooling that scan specific IP or **automates** scan all the local IPs on your network.
 
-This is simple Port scanner made with Python.
+## Table of contents
+- [Installing Local Port Scanner](#installation)
+- [Running Local Port Scanner](#running-Local Port Scanner)
+- [Updating Local Port Scanner](#updating-Local Port Scanner)
 
-## How-to-run-in-Terminal
-
-Simply goto the directory and run ```port-scanner.py target``` command with replacing target to your target IP Address
-
->Note:
-> You can run this file without Terminal by just opening the file.
-
-
-## Example
-##### Command - ```port-scanner.py 127.0.0.1```
-##### Output
-            ____             __     _____
-           / __ \____  _____/ /_   / ___/_________ _____  ____  ___  _____
-          / /_/ / __ \/ ___/ __/   \__ \/ ___/ __ `/ __ \/ __ \/ _ \/ ___/
-         / ____/ /_/ / /  / /_    ___/ / /__/ /_/ / / / / / / /  __/ /
-        /_/    \____/_/   \__/   /____/\___/\__,_/_/ /_/_/ /_/\___/_/
+## **Installation**
+```elm
+pip install local-port-scanner
+```
+__Important:__ depending on your system, make sure to use `pip3` and `python3` instead.
 
 
-        Starting scan on host: 127.0.0.1
+>If you would like to install a specific version of Local Port Scanner you may do so with:
+>```elm
+>pip install local-port-scanner==0.0.1
+>```
 
-        Port    Status
-        80       open
-        135      open
-        445      open
-        447      open
+#### Running Local Port Scanner
 
-        Time taken: 2s
-    
+Local Port Scanner is not only a tool but also it is a module
+
+##### Use as a tool
+.**Run the port scanner as the following Example..**
+```elm
+python -m port_scanner -a
+```
+There are specific commands to use in Port Scanner.
+<br />
+'-a' command is used to auto-discover host in your local network and scan if there are open ports.
+<br/>
+'-H' command is used to specify the host.
+<br/>
+If you want to know more commands use '-h' command.
+
+**Run the netdiscover as the following Example.**
+```elm
+python -m netdiscover 
+```
+It just discovers all the host IPs and Mac addresses.
+##### Use as a module
+
+There are two classes you can use.
+- port_scanner
+  * To scan specific target
+ ```elm
+form loacl_scanner import port_scanner
+Scan(target='127.0.0.1')
+```
+- netdiscover
+  * To discover host in the Local network
+ ```elm
+form loacl_scanner import netdiscover
+NetDiscover(output=True)
+```
+#### Updating Local Port Scanner
+```elm
+pip install local-port-scanner -U
+```
+
+
+
+---
+
+> **Disclaimer**<a name="disclaimer" />: Please Note that this is a research project. I am by no means responsible for any usage of this tool.

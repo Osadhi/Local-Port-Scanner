@@ -24,3 +24,7 @@ class NetDiscover:
         self.result = scan(self.ipg)
         if output:
             print_r(self.result)
+
+
+if __name__ == '__main__':
+    NetDiscover(output=True)
