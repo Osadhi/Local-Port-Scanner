@@ -15,7 +15,7 @@ __Important:__ depending on your system, make sure to use `pip3` and `python3` i
 
 >If you would like to install a specific version of Local Port Scanner you may do so with:
 >```elm
->pip install local-port-scanner==0.0.1
+>pip install local-port-scanner==0.0.2
 >```
 
 #### Running Local Port Scanner
