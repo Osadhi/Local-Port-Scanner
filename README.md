@@ -23,7 +23,7 @@ __Important:__ depending on your system, make sure to use `pip3` and `python3` i
 Local Port Scanner is not only a tool but also it is a module
 
 ##### Use as a tool
-.**Run the port scanner as the following Example..**
+######Run the port scanner as the following Example.
 ```elm
 python -m port_scanner -a
 ```
@@ -35,7 +35,7 @@ There are specific commands to use in Port Scanner.
 <br/>
 If you want to know more commands use '-h' command.
 
-**Run the netdiscover as the following Example.**
+######Run the netdiscover as the following Example.
 ```elm
 python -m netdiscover 
 ```
