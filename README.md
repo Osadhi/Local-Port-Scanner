@@ -1,5 +1,5 @@
 <h1>Local Port Scanner</h1>
-Tooling that scan specific IP or **automates** scan all the local IPs on your network.
+<p>Tooling that scan specific IP or <b>automates</b> scan all the local IPs on your network.</p>
 
 ## Table of contents
 - [Installing Local Port Scanner](#installation)
