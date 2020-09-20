@@ -5,7 +5,7 @@ from queue import Queue
 from threading import Lock, Thread
 from time import sleep, time
 
-from .netdiscover import NetDiscover
+from netdiscover import NetDiscover
 
 banner = r"""
     ____             __     _____                                 
