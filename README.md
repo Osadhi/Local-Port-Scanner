@@ -1,6 +1,8 @@
 <h1>Local Port Scanner</h1>
 <p>Tooling that scan specific IP or <b>automates</b> scan all the local IPs on your network.</p>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z71OJUW)
+
 ## Table of contents
 - [Installing Local Port Scanner](#installation)
 - [Running Local Port Scanner](#running-local-port-scanner)
