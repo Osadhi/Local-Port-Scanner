@@ -33,6 +33,8 @@ There are specific commands to use in Port Scanner.
 <br/>
 '-H' command is used to specify the host.
 <br/>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z71OJUW)
 If you want to know more commands use '-h' command.
 
 Run the netdiscover as the following Example.
